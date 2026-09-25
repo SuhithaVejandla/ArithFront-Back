@@ -1,0 +1,1 @@
+export const nodeurl="http://localhost:3737"

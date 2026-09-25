@@ -1,0 +1,163 @@
+/*
+    =====================================================
+    COMPLETE PAGE
+    =====================================================
+*/
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-color:#f4f6f8;
+}
+/*
+    =====================================================
+    MAIN CALCULATOR CONTAINER
+    =====================================================
+*/
+.calculator {
+    width:450px;
+    margin:80px auto;
+    padding:30px;
+    background-color:white;
+    border:1px solid #cccccc;
+    border-radius:8px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.10);
+}
+/*
+    =====================================================
+    MAIN HEADING
+    =====================================================
+*/
+.calculator h1 {
+    text-align:center;
+    color:#0f4c81;
+    margin-bottom:25px;
+}
+/*
+    =====================================================
+    DESCRIPTION TEXT
+    =====================================================
+*/
+.calculator p {
+    text-align:center;
+    color: #555555;
+}
+/*
+    =====================================================
+    LABELS
+    =====================================================
+*/
+.calculator label {
+    display:block;
+    margin-top:15px;
+    margin-bottom:6px;
+    font-weight:bold;
+    color:#333333;
+}
+/*
+    =====================================================
+    INPUT BOXES
+    =====================================================
+*/
+.calculator input {
+    width: 100%;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #aaaaaa;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+/*
+    Change border colour when user clicks inside input.
+*/
+.calculator input:focus {
+    outline: none;
+    border-color: #0f4c81;
+}
+/*
+    =====================================================
+    BUTTON AREA
+    =====================================================
+*/
+.button-container {
+    display:flex;
+    gap:10px;
+    margin-top: 25px;
+}
+/*
+    =====================================================
+    COMMON BUTTON STYLE
+    =====================================================
+*/
+.calculator button {
+    flex:1;
+    padding:11px;
+    border:none;
+    border-radius:4px;
+    font-size:15px;
+    cursor:pointer;
+}
+/*
+    =====================================================
+    ADD BUTTON
+    =====================================================
+*/
+.add-button {
+    background-color:#0f4c81;
+    color: white;
+}
+/*
+    Hover effect
+*/
+.add-button:hover {
+    background-color: #12395b;
+}
+/*
+    =====================================================
+    SUBTRACT BUTTON
+    =====================================================
+*/
+.subtract-button {
+    background-color:#666666;
+    color:white;
+}
+.subtract-button:hover {
+    background-color:#444444;
+}
+/*
+    =====================================================
+    RESULT BOX
+    =====================================================
+*/
+.result-box {
+    margin-top:25px;
+    padding:15px;
+    text-align:center;
+    background-color:#e8f1f8;
+    border-radius:4px;
+}
+/*
+    Result heading
+*/
+.result-box h2 
+{
+    margin:0;
+    color: #0f4c81;
+}
+/*
+    =====================================================
+    RESPONSIVE DESIGN
+    =====================================================
+*/
+@media (max-width: 600px) 
+{
+  .calculator 
+  {
+    width:90%;
+    margin:30px auto;
+    padding:20px;
+  }
+  .button-container 
+  {
+    flex-direction:column;
+  }
+}
