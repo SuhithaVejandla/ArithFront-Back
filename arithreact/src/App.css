@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: Arial,sans-serif;
-    background-color:#f4f6f8;
+    background-color:#9ab7d3;
 }
 /*
     =====================================================
@@ -20,7 +20,7 @@ body {
     background-color:white;
     border:1px solid #cccccc;
     border-radius:8px;
-    box-shadow:0 4px 12px rgba(0, 0, 0, 0.10);
+    box-shadow:0 4px 12px rgba(132, 34, 34, 0.1);
 }
 /*
     =====================================================
@@ -29,7 +29,7 @@ body {
 */
 .calculator h1 {
     text-align:center;
-    color:#0f4c81;
+    color:#064882;
     margin-bottom:25px;
 }
 /*
@@ -39,7 +39,7 @@ body {
 */
 .calculator p {
     text-align:center;
-    color: #555555;
+    color: #997171;
 }
 /*
     =====================================================
@@ -51,7 +51,7 @@ body {
     margin-top:15px;
     margin-bottom:6px;
     font-weight:bold;
-    color:#333333;
+    color:#e5b7b7;
 }
 /*
     =====================================================
@@ -62,7 +62,7 @@ body {
     width: 100%;
     padding:10px;
     font-size:16px;
-    border:1px solid #aaaaaa;
+    border:1px solid #edc7c7;
     border-radius:4px;
     box-sizing: border-box;
 }
@@ -71,7 +71,7 @@ body {
 */
 .calculator input:focus {
     outline: none;
-    border-color: #0f4c81;
+    border-color: #5d7487;
 }
 /*
     =====================================================
@@ -102,14 +102,14 @@ body {
     =====================================================
 */
 .add-button {
-    background-color:#0f4c81;
+    background-color:#83b5e3;
     color: white;
 }
 /*
     Hover effect
 */
 .add-button:hover {
-    background-color: #12395b;
+    background-color: #0c4370;
 }
 /*
     =====================================================
@@ -117,7 +117,7 @@ body {
     =====================================================
 */
 .subtract-button {
-    background-color:#666666;
+    background-color:#99b7d9;
     color:white;
 }
 .subtract-button:hover {
@@ -132,7 +132,7 @@ body {
     margin-top:25px;
     padding:15px;
     text-align:center;
-    background-color:#e8f1f8;
+    background-color:#d4dde4;
     border-radius:4px;
 }
 /*
@@ -141,7 +141,7 @@ body {
 .result-box h2 
 {
     margin:0;
-    color: #0f4c81;
+    color: #f9fafb;
 }
 /*
     =====================================================
